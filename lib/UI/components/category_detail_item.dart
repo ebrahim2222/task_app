@@ -37,7 +37,8 @@ class CategoryDetailItem extends StatelessWidget {
                   margin: EdgeInsets.only(
                       right: SizeManager.s8.w, top: SizeManager.s18.h),
                   alignment: Alignment.centerRight,
-                  child: const Icon(Icons.heart_broken_outlined)),
+                  child: const ImageIcon(
+                      AssetImage("assets/images/group_1749.png"))),
               Container(
                 height: 140.h,
                 margin: EdgeInsets.only(bottom: AppMargin.m14.h),
